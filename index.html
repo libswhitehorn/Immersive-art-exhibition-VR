@@ -12,16 +12,16 @@
   <a-scene>
     
     
-      <a-assets>
+                        <a-entity id="music" geometry="primitive: plane" material="color: blue"
+          position="-10 0 0" sound="src: url(relax-music.mp3); autoplay: true”></a-entity>
+     
+                                    <a-assets>
         <img  id="sky" src="Immersive-exhibition.png"/>
       </a-assets>
 
       <a-sky src="#sky"></a-sky>
                        
-                       
-                       
-                        <a-entity id="music" geometry="primitive: plane" material="color: blue"
-          position="-10 0 0" sound="src: url(relax-music.mp3); autoplay: true”></a-entity>
+                
 
     </a-scene>
     
